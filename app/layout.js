@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
             <Link href={`/contact`}>contact</Link>
             <Link href={`/about`}>about</Link>
             <Link href={`/blogs`}>blog</Link>
+            <Link href={`/posts`}>posts</Link>
           </ul>
         </nav>
         {/* navbar ends  */}
