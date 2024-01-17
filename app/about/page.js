@@ -18,7 +18,7 @@ const About = () => {
       <h1>About page </h1>
 
       <div className="bannerImage bg-red-500 w-[30rem]  mt-4 ">
-        <Image src={AboutImg} alt="banner pic " />
+        <Image src={AboutImg} alt="banner pic " placeholder="blur" />
       </div>
     </div>
   );
