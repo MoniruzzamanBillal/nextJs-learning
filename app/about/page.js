@@ -9,6 +9,7 @@ export const metadata = {
 };
 
 const About = () => {
+  throw new Error("there is a error");
   return (
     <div className=" bg-red-300 ">
       <h1>About page </h1>
@@ -17,7 +18,7 @@ const About = () => {
       <h1>About page </h1>
       <h1>About page </h1>
 
-      <div className="bannerImage bg-red-500 w-[30rem]  mt-4 ">
+      <div className="bannerImage BlogValues w-[30rem]  mt-4 ">
         <Image src={AboutImg} alt="banner pic " placeholder="blur" />
       </div>
     </div>
